@@ -51,4 +51,10 @@ public class Controller {
         model.put("domain",domain);
         return new ModelAndView(model, "reverse.ftl");
     };
+
+    public static TemplateViewRoute getAbout = (request, response) -> {
+        HashMap<String, Object> model = new HashMap<>();
+        model.put("availableDomains", Configuration.getInstance().getDomains());
+        return new ModelAndView(model, "about.ftl");
+    };
 }

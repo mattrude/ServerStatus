@@ -52,12 +52,13 @@ public class Main {
         });
 
         get("/", Controller.getStatus, templateEngine);
+        get("/about/", Controller.getAbout, templateEngine);
         get("/historical/", Controller.getHistorical, templateEngine);
         get("/reverse/:domain/", Controller.getReverse, templateEngine);
         get("/:domain/", Controller.getStatus, templateEngine);
         ScheduledThreadPoolExecutor scheduledThreadPoolExecutor = new ScheduledThreadPoolExecutor(5);
         for (Credentials credentials : Configuration.getInstance().getCredentials()) {
-            scheduledThreadPoolExecutor.scheduleAtFixedRate(new ServerStatusChecker(credentials, Configuration.getInstance().getPingTargets()), 0, 2, TimeUnit.MINUTES);
+            scheduledThreadPoolExecutor.scheduleAtFixedRate(new ServerStatusChecker(credentials, Configuration.getInstance().getPingTargets()), 0, 5, TimeUnit.MINUTES);
         }
         scheduledThreadPoolExecutor.scheduleAtFixedRate(new ServerStatusStore.HistoricalDataUpdater(),0,10,TimeUnit.MINUTES);
     }

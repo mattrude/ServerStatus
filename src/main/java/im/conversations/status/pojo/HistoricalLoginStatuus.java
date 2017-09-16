@@ -8,7 +8,7 @@ import java.util.Map;
 
 public class HistoricalLoginStatuus {
 
-    public static List<Integer> DURATIONS = Arrays.asList(1,7,30,365);
+    public static List<Integer> DURATIONS = Arrays.asList(1,7,30,90,180,365);
     public static ChronoUnit UNIT = ChronoUnit.DAYS;
 
     private final Map<Duration,Double> durationLoginStatusMap;
