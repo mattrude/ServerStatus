@@ -9,7 +9,7 @@
     <#if isLoggedIn>
 
     <h2>${domain} is up and running</h2>
-    <p>This server is here to anwser a simple question, can the users on server ${domain} connect to users on a questioned server. The below table tries to give you a snapshot of this servers current connection status with other servers.</p>
+    <p>This site is here to anwser a simple question, can the users on server ${domain} connect to users on a questioned server.  The below table tries to give you a snapshot of this server ${domain}'s current connection status with other servers.</p>
 
     <h3>Primay Domains</h3>
     <table>
@@ -41,7 +41,7 @@
     <#else>
     <h1 style="color:red;">${domain} seems to be down</h1>
     </#if>
-<div class="pull-right">
+<div id="last-updated" class="pull-right">
     <p class="small info">Last updated: ${lastUpdated?datetime} UTC</p>
 </div>
 <#else>

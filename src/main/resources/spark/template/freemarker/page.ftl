@@ -40,8 +40,6 @@
             }
             #table p {
 		font-size: 14px;
-                padding: 0 0 25px;
-                margin: 0px;
 	    }
         }
 
@@ -99,24 +97,9 @@
             color: rgba(0, 0, 0, 0.54);
         }
 
-        .btn {
-            padding: 0 1px;
-            color: #000;
-            font-size: 9px;
-        }
-
-        .btn-secondary {
-            background-color: yellow;
-            border-color: yellow;
-        }
-
-        .alert-warning span {
-            float: left;
-        }
-
-        .alert-warning p {
-            padding-left: 25px;
-            font-size: 14px;
+        #last-updated {
+            padding: 0 0 25px;
+            margin: 0px;
         }
 
         a {
