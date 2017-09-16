@@ -20,8 +20,8 @@
        <a href="https://github.com/iNPUTmice/ServerStatus">iNPUTmice/ServerStatus</a> and is licensed under the 
        <a href="https://github.com/iNPUTmice/ServerStatus/blob/master/LICENSE">3 Clause BSD License</a>.</p>
 
-    <p>Customizations to the original software, as shown on this site, is available as a patch in the Gist
-       <a href="https://gist.github.com/mattrude/51f5aa7866169b1c2fbd4865ed5a2f94">ServerStatus-Custom</a>.</p>
+    <p>Customizations to the original software, as shown on this site, is available as a fork in the git
+       repository <a href="https://github.com/mattrude/ServerStatus">ServerStatus</a>.</p>
 
     <h2>License</h2>
     <pre>Copyright (c) 2017, Daniel Gultsch All rights reserved.
