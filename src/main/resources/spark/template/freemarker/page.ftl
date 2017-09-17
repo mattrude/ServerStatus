@@ -97,6 +97,11 @@
             color: rgba(0, 0, 0, 0.54);
         }
 
+        .alert-warning p {
+             padding-left: 25px;
+             font-size: 14px;
+        }
+
         #last-updated {
             padding: 0 0 25px;
             margin: 0px;
