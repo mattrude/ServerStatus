@@ -97,9 +97,13 @@
             color: rgba(0, 0, 0, 0.54);
         }
 
+        .alert-warning span {
+            float: left;
+        }
+
         .alert-warning p {
-             padding-left: 25px;
-             font-size: 14px;
+            padding-left: 30px;
+            font-size: 14px;
         }
 
         #last-updated {
