@@ -19,7 +19,8 @@
         }
 
         #main {
-            padding: 40px 15px;
+            padding: 40px 15px 10px 15px;
+            margin-bottom: 60px;
         }
 
         .container {
@@ -45,10 +46,6 @@
 
         h1 {
             font-weight: 600;
-        }
-
-        #page {
-            padding-bottom: 40px;
         }
 
         table {
@@ -107,7 +104,6 @@
         }
 
         #last-updated {
-            padding: 0 0 25px;
             margin: 0px;
         }
 
@@ -160,8 +156,7 @@
 
     <#if !about>
     <div id=table>
-    </#if>
-    <#if about>
+    <#else>
     <div id=page>
     </#if>
         <#nested />
