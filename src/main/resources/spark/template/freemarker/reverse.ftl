@@ -3,6 +3,7 @@
 <#assign title="Reverse reachability for ${domain}">
 <@page.page title="Reverse reachability for ${domain}" historical=false reverse=true>
 <h2>${title}</h2>
+<p>This page shows if the servers listed below are able to receive connections from the domain <b>${domain}</b>.</p>
 <table class="rightbound">
     <#list pingResults as result>
         <tr>

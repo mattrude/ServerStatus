@@ -39,7 +39,7 @@
         </#list>
     </table>
     <#else>
-    <h1 style="color:red;">${domain} seems to be down</h1>
+    <h1 style="color:red;">The <b>${domain}</b> seems to be down</h1>
     </#if>
 <div id="last-updated" class="pull-right">
     <p class="small info">Last updated: ${lastUpdated?datetime} UTC</p>

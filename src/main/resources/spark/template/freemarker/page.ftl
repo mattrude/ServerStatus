@@ -141,18 +141,12 @@
         }
     </style>
 </head>
+
 <body>
 <div id="main" class="container offsetanchor">
     <div class="section-headder" style="padding-top:0;"><center>
-        <h1 class="page-header text-center" style="border-bottom: 0px;margin:0 0 20px; 0;">XMPP Service Status Site</h1>
+        <h1 class="page-header text-center" style="border-bottom: 0px;margin:0 0 20px;">XMPP Service Status Site</h1>
     </div>
-
-    <#if reverse>
-        <div class="alert alert-warning" role="alert">
-            <span class="fa fa-info-circle" style="font-size:26px;"></span>
-            <p>This page shows if the servers listed below are able to receive connections from the domain <b>${domain}</b>.</p>
-        </div>
-    </#if>
 
     <#if !about>
     <div id=table>
@@ -170,7 +164,7 @@
             <p><a href="/">Home</a><#if !about> | <a href="/about/">About</a></#if><#if !historical> | <a href="/historical/">Historical</a></#if></p>
         </div>
         <div class="pull-right">
-            <p>&copy; 2017 by <a href="https://mattrude.com/">Matt Rude</a></p>
+            <p>&copy; 2017 by <a href="https://im.mattrude.com/contact/">Matt Rude</a></p>
         </div>
     </div>
 </footer>
