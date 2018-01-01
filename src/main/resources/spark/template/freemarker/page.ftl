@@ -161,10 +161,10 @@
 <footer class="footer">
     <div class="container" style="background-color:#f1f1f1;">
         <div class="pull-left">
-            <p><a href="/">Home</a><#if !about> | <a href="/about/">About</a></#if><#if !historical> | <a href="/historical/">Historical</a></#if></p>
+            <p><a href="/">Home</a><#if !about> | <a href="/about/">About</a></#if><#if !historical> | <a href="/historical/">Historical</a></#if> | <a href="/compliance.html">Compliance</a></p>
         </div>
         <div class="pull-right">
-            <p>&copy; 2017 by <a href="https://im.mattrude.com/contact/">Matt Rude</a></p>
+            <p>&copy; 2018 by <a href="https://im.mattrude.com/contact/">Matt Rude</a></p>
         </div>
     </div>
 </footer>
