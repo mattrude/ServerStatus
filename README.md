@@ -26,7 +26,7 @@ License
 
 ```
 Copyright (c) 2017, Daniel Gultsch All rights reserved.
-Copyright (c) 2017, Matt Rude All rights reserved.
+Copyright (c) 2017-2018, Matt Rude All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
