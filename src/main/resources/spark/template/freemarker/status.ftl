@@ -9,7 +9,7 @@
     <#if isLoggedIn>
 
     <h2>${domain} is up and running</h2>
-    <p>This site is here to anwser a simple question, can the users on server ${domain} connect to users on a questioned server.  The below table tries to give you a snapshot of this server ${domain}'s current connection status with other servers.</p>
+    <p>This site is here to anwser a simple question, can the users on the <a href="https://xmpp.org/" target="_blank">xmpp</a> server, for the domain <a href="https://im.${domain}" target="_blank">${domain}</a>, connect to users on other server.  The below table tries to give you a snapshot of the ${domain} domain's current connection status with other servers.</p>
 
     <h3>Primay Domains</h3>
     <table>
