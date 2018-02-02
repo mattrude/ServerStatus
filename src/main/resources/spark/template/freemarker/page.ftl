@@ -22,6 +22,10 @@
             margin-bottom: 60px;
         }
 
+        #about, #historical {
+            padding-bottom: 20px;
+        }
+
         .container {
             max-width: 768px;
             background-color: #fff;
@@ -142,7 +146,13 @@
 </head>
 
 <body>
+<#if about>
+<div id="about" class="container offsetanchor">
+<#elseif historical>
+<div id="historical" class="container offsetanchor">
+<#else>
 <div id="main" class="container offsetanchor">
+</#if>
     <div class="section-headder" style="padding-top:0;"><center>
         <h1 class="page-header text-center" style="border-bottom: 0px;margin:0 0 20px;">XMPP Service Status Site</h1>
     </div>
