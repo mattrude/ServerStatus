@@ -18,7 +18,7 @@
         }
 
         #main {
-            padding: 40px 15px 10px 15px;
+            padding: 40px 15px 40px 15px;
             margin-bottom: 60px;
         }
 
@@ -158,13 +158,13 @@
 
 <!-- Page Footer -->
 <footer class="footer">
-    <div class="container" style="background-color:#f1f1f1;">
-        <div class="pull-left">
-            <p><a href="/">Home</a><#if !about> | <a href="/about/">About</a></#if><#if !historical> | <a href="/historical/">Historical</a></#if></p>
-        </div>
-        <div class="pull-right">
-            <p>&copy; 2018 by <a href="https://im.mattrude.com/contact/">Matt Rude</a></p>
-        </div>
+    <div class="container text-center" style="background-color:#f1f1f1;">
+            <div class="float-md-left">
+                <p><a href="/">Home</a><#if !about> | <a href="/about/">About</a></#if><#if !historical> | <a href="/historical/">Historical</a></#if></p>
+            </div>
+            <div class="float-md-right">
+                <p>&copy; 2018 by <a href="https://im.mattrude.com/contact/">Matt Rude</a></p>
+            </div>
     </div>
 </footer>
 
