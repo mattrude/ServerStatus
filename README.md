@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mattrude/ServerStatus.svg?branch=master)](https://travis-ci.org/mattrude/ServerStatus) [![GitHub license](https://img.shields.io/github/license/mattrude/ServerStatus.svg)](https://github.com/mattrude/ServerStatus/blob/master/LICENSE) [![GitHub tag](https://img.shields.io/github/tag/mattrude/ServerStatus.svg)](https://github.com/mattrude/ServerStatus/tags) [![GitHub commits since](https://img.shields.io/github/commits-since/mattrude/ServerStatus/v0.1.0.svg)](https://github.com/mattrude/ServerStatus/compare/v0.1.0...master) [![Open Issues](https://img.shields.io/github/issues-raw/mattrude/ServerStatus.svg)](https://github.com/mattrude/ServerStatus/issues) [![Maintenance](https://img.shields.io/maintenance/yes/2018.svg)](http://github.com/mattrude/ServerStatus)
+
 XMPP Server Status
 ==================
 
@@ -6,6 +8,8 @@ This project aims to provide an all-in-one solution for monitoring the uptime of
 It’s primary job is to answer the “is X down or is it just me?” question and also to display the status of some (common) S2S connections. Furthermore it will record historic data and display the average uptime over the last 24 hours, 7 days, 30 days and a year.
 
 It acts as a status page for the conversations.im XMPP server on [status.conversations.im](https://status.conversations.im).
+
+This site uses [Bootstrap 4.0](https://getbootstrap.com/).
 
 Compile & Deploy
 ----------------
