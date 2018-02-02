@@ -41,7 +41,7 @@
     <#else>
     <h1 style="color:red;">The <b>${domain}</b> seems to be down</h1>
     </#if>
-<div id="last-updated" class="pull-right">
+<div id="last-updated" class="float-right">
     <p class="small info">Last updated: ${lastUpdated?datetime} UTC</p>
 </div>
 <#else>

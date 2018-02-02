@@ -7,6 +7,8 @@ It’s primary job is to answer the “is X down or is it just me?” question a
 
 It acts as a status page for the conversations.im XMPP server on [status.conversations.im](https://status.conversations.im).
 
+This site uses [Bootstrap 4.0](https://getbootstrap.com/).
+
 Compile & Deploy
 ----------------
 
