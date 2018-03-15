@@ -5,6 +5,7 @@
     <!-- <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'> -->
     <link rel="shortcut icon" href="/favicon.ico"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="refresh" content="300" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,13 +18,9 @@
             background-color: #f1f1f1;
         }
 
-        #main {
+        #about, #historical, #main {
             padding: 40px 15px 40px 15px;
             margin-bottom: 60px;
-        }
-
-        #about, #historical {
-            padding-bottom: 20px;
         }
 
         .container {
@@ -31,14 +28,14 @@
             background-color: #fff;
         }
 
-        @media only screen and (max-width: 650px) {
+        @media only screen and (max-width: 412px) {
             #table {
                 font-size: 12pt;
                 overflow-x: scroll
             }
         }
 
-        @media only screen and (min-width: 650px) {
+        @media only screen and (min-width: 412px) {
             #table {
                 font-size: 16pt;
             }
@@ -48,7 +45,12 @@
         }
 
         h1 {
-            font-weight: 600;
+            font-weight: 700;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            margin-top: .5rem;
+            margin-bottom: .5rem;
         }
 
         table {
@@ -63,6 +65,7 @@
         th {
             padding-right: 6px;
             padding-left: 6px;
+            line-height: 1;
         }
 
         td {
