@@ -45,6 +45,7 @@
     <p class="small info">Last updated: ${lastUpdated?datetime} UTC</p>
 </div>
 <#else>
-<p>No current information available on ${domain}</p>
+<h2>No current information available on ${domain}</h2>
+<p>There is not any infromation for the domain ${domain}, yet.  That will most likly change very shortly, so check back soon.</p>
 </#if>
 </@page.page>
