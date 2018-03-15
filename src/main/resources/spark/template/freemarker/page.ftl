@@ -87,6 +87,11 @@
             text-align: right;
         }
 
+        table tbody tr td.amber {
+            color: #e8b800;
+            text-align: right;
+        }
+
         table tbody tr td.unsuccessful {
             color: #e53935;
             text-align: right;
