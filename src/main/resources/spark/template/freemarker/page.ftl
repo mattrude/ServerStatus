@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="300" />
+    <meta http-equiv="refresh" content="60" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>${title}</title>
     <style type="text/css">
@@ -181,7 +181,7 @@
                 <p><a href="/">Home</a><#if !about> | <a href="/about/">About</a></#if><#if !historical> | <a href="/historical/">Historical</a></#if></p>
             </div>
             <div class="float-md-right">
-                <p>&copy; 2018 by <a href="https://im.mattrude.com/contact/">Matt Rude</a></p>
+                <p>&copy; 2018 by <a href="https://im.mattrude.com/#about">Matt Rude</a></p>
             </div>
     </div>
 </footer>

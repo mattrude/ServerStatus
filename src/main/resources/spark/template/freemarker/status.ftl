@@ -39,13 +39,14 @@
         </#list>
     </table>
     <#else>
-    <h1 style="color:red;">The <b>${domain}</b> seems to be down</h1>
+    <h1 style="color:red;">The <a href="https://xmpp.org/" style="color:red;">XMPP</a> service for the domain <b>${domain}</b> seems to be down</h1>
+    <p></p>
     </#if>
 <div id="last-updated" class="float-right">
     <p class="small info">Last updated: ${lastUpdated?datetime} UTC</p>
 </div>
 <#else>
-<h2>No current information available on ${domain}</h2>
-<p>There is not any infromation for the domain ${domain}, yet.  That will most likly change very shortly, so check back soon.</p>
+<h2 style="color:gold;">No current information available on ${domain}</h2>
+<p>There is not any information for the domain ${domain}, yet.  That will most likly change very shortly, so check back soon.</p>
 </#if>
 </@page.page>
