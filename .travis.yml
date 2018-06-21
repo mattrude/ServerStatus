@@ -1,2 +1,4 @@
 language: java
-script: mvn test
+sudo: false
+before_script: mvn test
+script: mvn package
