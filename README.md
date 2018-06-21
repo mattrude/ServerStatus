@@ -1,8 +1,7 @@
-[![Build Status](https://travis-ci.org/mattrude/ServerStatus.svg?branch=master)](https://travis-ci.org/mattrude/ServerStatus) [![GitHub license](https://img.shields.io/github/license/mattrude/ServerStatus.svg)](https://github.com/mattrude/ServerStatus/blob/master/LICENSE) [![GitHub tag](https://img.shields.io/github/tag/mattrude/ServerStatus.svg)](https://github.com/mattrude/ServerStatus/tags) [![Open Issues](https://img.shields.io/github/issues-raw/mattrude/ServerStatus.svg)](https://github.com/mattrude/ServerStatus/issues) [![Maintenance](https://img.shields.io/maintenance/yes/2018.svg)](http://github.com/mattrude/ServerStatus)
-
-
 XMPP Server Status
 ==================
+
+[![Build Status](https://travis-ci.org/mattrude/ServerStatus.svg?branch=master)](https://travis-ci.org/mattrude/ServerStatus) [![GitHub license](https://img.shields.io/github/license/mattrude/ServerStatus.svg)](https://github.com/mattrude/ServerStatus/blob/master/LICENSE) [![GitHub tag](https://img.shields.io/github/tag/mattrude/ServerStatus.svg)](https://github.com/mattrude/ServerStatus/tags) [![Open Issues](https://img.shields.io/github/issues-raw/mattrude/ServerStatus.svg)](https://github.com/mattrude/ServerStatus/issues) [![Maintenance](https://img.shields.io/maintenance/yes/2018.svg)](http://github.com/mattrude/ServerStatus)
 
 This project aims to provide an all-in-one solution for monitoring the uptime of one or many XMPP servers.
 
