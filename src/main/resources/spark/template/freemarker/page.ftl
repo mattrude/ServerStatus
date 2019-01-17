@@ -147,7 +147,7 @@
             width: 100%;
             /* Set the fixed height of the footer here */
             height: 60px;
-            padding-top: 20px;
+            padding: 20px 0;
             background-color: #f1f1f1;
         }
     </style>
