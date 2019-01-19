@@ -58,8 +58,8 @@ public class Main {
         get("/:domain/", Controller.getStatus, templateEngine);
         ScheduledThreadPoolExecutor scheduledThreadPoolExecutor = new ScheduledThreadPoolExecutor(5);
         for (Credentials credentials : Configuration.getInstance().getCredentials()) {
-            scheduledThreadPoolExecutor.scheduleAtFixedRate(new ServerStatusChecker(credentials, Configuration.getInstance().getPingTargets()), 0, 5, TimeUnit.MINUTES);
+            scheduledThreadPoolExecutor.scheduleAtFixedRate(new ServerStatusChecker(credentials, Configuration.getInstance().getPingTargets()), 0, 10, TimeUnit.MINUTES);
         }
-        scheduledThreadPoolExecutor.scheduleAtFixedRate(new ServerStatusStore.HistoricalDataUpdater(),0,10,TimeUnit.MINUTES);
+        scheduledThreadPoolExecutor.scheduleAtFixedRate(new ServerStatusStore.HistoricalDataUpdater(),0,30,TimeUnit.MINUTES);
     }
 }

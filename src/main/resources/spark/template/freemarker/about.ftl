@@ -4,7 +4,7 @@
 
     <h2>About This Site</h2>
     <p>This is the status site for my XMPP servers.  This site shows whether the server is up and accepting connections
-       form clients and other servers.  It also shows the historical uptime of the servers. This service updates its content, about, every 5 minutes.</p>
+       form clients and other servers.  It also shows the historical uptime of the servers.</p>
 
     <p>The server will connect to one of the <i>primary</i> domains, as a client, via a standerd JID to the C2S port 5222.
        It then will send a <code>ping</code> request to each of the other domains (both the <i>Remote Domains</i> and the
@@ -12,7 +12,7 @@
        <b style="color:green;">reachable</b>, if it does not receive the response in the prescribed time period, it will
        consider the domain down and <b style="color:red;">unreachable</b>.</p>
 
-    <p>This site checks the XMPP service about every 5 minutes.</p>
+    <p>This site checks the XMPP service every 10 minutes.</p>
 
     <h2>Site Source</h2>
     <p>The software running on this site was written by <a href="https://gultsch.de/">Daniel Gultsch</a>, the

@@ -22,7 +22,7 @@
             <#list durations as duration>
                 <#if historicalData.isAvailableForDuration(duration)>
                     <#assign availability=historicalData.getForDuration(duration)>
-                    <td class="<#if 99.50 < availability>successful<#elseif 98.00 < availability>amber<#else>unsuccessful</#if>">${availability?string["0.##"]}&percnt;</td>
+                    <td class="<#if 98.00 < availability>successful<#elseif 95.00 < availability>amber<#else>unsuccessful</#if>">${availability?string["0.##"]}&percnt;</td>
                 <#else>
                     <td class="info">N/A</td>
                 </#if>

@@ -147,7 +147,7 @@
             width: 100%;
             /* Set the fixed height of the footer here */
             height: 60px;
-            padding-top: 20px;
+            padding: 20px 0;
             background-color: #f1f1f1;
         }
     </style>
@@ -181,7 +181,7 @@
                 <p><a href="/">Home</a><#if !about> | <a href="/about/">About</a></#if><#if !historical> | <a href="/historical/">Historical</a></#if></p>
             </div>
             <div class="float-md-right">
-                <p>&copy; 2018 by <a href="https://im.mattrude.com/#about">Matt Rude</a></p>
+                <p>&copy; 2019 by <a href="https://im.mattrude.com/#about">Matt Rude</a></p>
             </div>
     </div>
 </footer>
