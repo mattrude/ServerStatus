@@ -3,7 +3,7 @@
 <@page.page title="Historical Uptime Statistics" historical=true>
 <h2>Historical Uptime Statistics</h2>
 <p>This page shows the historical uptime of each of the <i>Primary Domains</i>.<br />
-<small><i>Being <i>up</i> is defined being able to log into a server with a client.</i></small></p>
+<small><i>Being <b>up</b> is defined as being able to log into the xmpp server with a client.</i></small></p>
 <#if serverMap?size == 0>
     <p class="info">Calculating Historical Data</p>
 <#else>
